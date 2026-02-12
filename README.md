@@ -314,8 +314,6 @@ Algorithm    Throughput           Retransmissions
 ────────────────────────────────────────────────
 ndm_tcp      245 Mbits/sec        38
 cubic        298 Mbits/sec        67
-reno         189 Mbits/sec        52
-bbr          312 Mbits/sec        12
 
 🏆 Most Efficient (lowest retransmissions): ndm_tcp (38 retrans)
 
