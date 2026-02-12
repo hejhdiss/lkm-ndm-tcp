@@ -679,7 +679,7 @@ struct ndm_tcp {
 
 | Algorithm | Type | Best For | Weakness | Year |
 |-----------|------|----------|----------|------|
-| **NDM-TCP** | ML-based | Wireless, variable networks | Localhost/LAN | 2024 |
+| **NDM-TCP** | ML-based | Wireless, variable networks | Localhost/LAN | 2026 |
 | **Cubic** | Loss-based | High-speed datacenter links | Random loss | 2008 |
 | **BBR** | Delay-based | High BDP networks | Buffer bloat | 2016 |
 | **Reno** | Loss-based | Simple, stable networks | Slow recovery | 1990 |
