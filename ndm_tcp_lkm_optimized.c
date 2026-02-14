@@ -5,6 +5,7 @@
  * 1. Reduced struct size to fit ICSK_CA_PRIV_SIZE (64 bytes).
  * 2. Fixed XMM clobber error by using proper kernel FPU wrappers.
  * 3. Compacted rtt_history to 8 slots to save space.
+ Licnesed GPL V2.
  */
 
 #include <linux/module.h>
@@ -360,4 +361,5 @@ module_exit(ndm_tcp_unregister);
 MODULE_AUTHOR("NDM-TCP Development Team");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Neural Differential Manifolds TCP CC (AVX Optimized)");
+
 MODULE_VERSION(NDM_TCP_VERSION);
