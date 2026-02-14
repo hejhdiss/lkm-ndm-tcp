@@ -7,6 +7,7 @@
  * Scalar integer math is faster for small (6x4) matrices in interrupt context.
  * 3. COMPACT STRUCT: Reduced size to 40 bytes (fits in 1 cache line).
  * 4. FAST PATH: Heavily optimized congestion avoidance loop.
+ Licensed under GPL V2.
  */
 
 #include <linux/module.h>
@@ -378,3 +379,4 @@ MODULE_AUTHOR("NDM-TCP Team");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Neural Differential Manifolds TCP CC (100Gbps Integer Optimized)");
 MODULE_VERSION(NDM_TCP_VERSION);
+
