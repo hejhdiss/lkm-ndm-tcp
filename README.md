@@ -1,6 +1,8 @@
 # NDM-TCP: Neural Differential Manifolds for TCP Congestion Control
 ## Linux Kernel Module Implementation
 
+>when compile if you want optimized version rename it to main c file's name and compile.
+
 > **Note**: This repository contains the Linux Kernel Module (LKM) implementation of NDM-TCP, which is the real working model. For the complete NDM-TCP project and research, see the main repository: [NDM-TCP on GitHub](https://github.com/hejhdiss/NDM-TCP)
 
 ---
