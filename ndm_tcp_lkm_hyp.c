@@ -3,6 +3,7 @@
  * Optimization Level: HYPER (Zero-Branch, Shift-Add Inference)
  * Plasticity: 1-600 Integer Scaled (0.1 to 6.0)
  * Feature: Hyper-Fast Bit-Stream Entropy Damping
+ Licensed under GPL V2.
  */
 
 #include <linux/module.h>
@@ -133,4 +134,5 @@ module_init(ndm_tcp_register);
 module_exit(ndm_tcp_unregister);
 
 MODULE_LICENSE("GPL");
+
 MODULE_DESCRIPTION("NDM-TCP Hyper: Entropy-Stabilized Manifolds");
